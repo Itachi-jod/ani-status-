@@ -12,7 +12,7 @@ const usernames = [
   "kanekii_quotes"
 ];
 
-app.get("/api/tikstalk", async (req, res) => {
+app.get("/api/status", async (req, res) => {
   // Step 1: Pick a random username
   const username = usernames[Math.floor(Math.random() * usernames.length)];
 
